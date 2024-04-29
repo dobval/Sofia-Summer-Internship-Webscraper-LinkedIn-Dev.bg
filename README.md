@@ -26,6 +26,12 @@ You can install these packages using pip:
 pip install beautifulsoup4 requests pandas
 ```
 
+## Cloning the Repository
+```bash
+git clone https://github.com/dobval/Sofia-Summer-Internship-Webscraper-LinkedIn-Devbg.git
+cd Sofia-Summer-Internship-Webscraper-LinkedIn-Devbg
+```
+
 ## Usage
 
 To use this script, simply run it with Python, for example:
