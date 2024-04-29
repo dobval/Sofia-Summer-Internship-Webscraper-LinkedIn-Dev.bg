@@ -31,10 +31,14 @@ pip install beautifulsoup4 requests pandas
 To use this script, simply run it with Python, for example:
 
 ```bash
-python scraper_linkedIn_internships.py
+python scraper_linkedIn_internships_summer.py
 ```
 
-The script will create a CSV file named `linkedin_links.csv` in the same directory. This file will contain the titles and links from the linked pages that contain the specified keywords.
+The script will create a CSV file named `linkedin_links_summer.csv` in the same directory. This file will contain the titles and links from the linked pages that contain (and exclude) the specified keywords.
+
+### Example CSV
+![image](https://github.com/dobval/Sofia-Summer-Internship-Webscraper-LinkedIn-Devbg/assets/100198047/e3aa376c-acef-487d-8996-6825b0334e49)
+
 
 ## Contributing
 
