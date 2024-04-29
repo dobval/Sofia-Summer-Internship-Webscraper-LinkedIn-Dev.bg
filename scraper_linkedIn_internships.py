@@ -30,6 +30,8 @@ if response.ok:
                 },
             ).text.strip()
 
+            data.append([title, company, location, href_link])
+
     df = pd.DataFrame(data, columns=["Title", "Company", "Location", "Link"])
     df.to_csv("linkedin_links.csv", index=False)
 
